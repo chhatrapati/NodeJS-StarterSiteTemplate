@@ -10,6 +10,7 @@ var express = require('express')
   , nconf = require('nconf')
   , path = require('path')
   , everyauth = require('everyauth')
+  , bcrypt = require('bcrypt')
   , Recaptcha = require('recaptcha').Recaptcha;
 
 
